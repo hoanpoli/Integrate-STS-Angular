@@ -24,3 +24,4 @@
 /nbdist/
 /.nb-gradle/
 /mk_ui/node_modules
+/temp
