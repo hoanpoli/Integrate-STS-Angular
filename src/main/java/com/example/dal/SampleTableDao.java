@@ -1,7 +1,7 @@
-package dal;
+package com.example.dal;
 
 import org.springframework.data.repository.CrudRepository;
-import model.SampleTable;
+import com.example.model.SampleTable;
 
 public interface SampleTableDao extends CrudRepository<SampleTable, Integer> {
 	
