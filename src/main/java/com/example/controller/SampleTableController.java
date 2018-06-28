@@ -17,7 +17,7 @@ public class SampleTableController {
 	@Autowired
 	private SampleTableDao dao;
 	
-	@GetMapping("/sampletable")
+	@GetMapping("")
 	public ResponseEntity<?> getAllAccountOfOwner(){
 		Iterable<SampleTable> res = dao.findAll() ;
 		return new ResponseEntity<>(res,HttpStatus.OK);
