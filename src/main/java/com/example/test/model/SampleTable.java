@@ -1,5 +1,7 @@
 package com.example.test.model;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,6 +23,7 @@ public class SampleTable {
 	private String  firstname ;
 	@Column(columnDefinition = "varchar(64)", name = "last_name")
 	private String lastname ;
+	
 	public Integer getId() {
 		return id;
 	}
