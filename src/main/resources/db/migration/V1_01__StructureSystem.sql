@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS PUBLIC."account";
-CREATE TABLE "account"
+DROP TABLE IF EXISTS PUBLIC."sampletable";
+CREATE TABLE "sampletable"
 (
 	"id"						SERIAL PRIMARY KEY,
 	"last_name"					VARCHAR(64),

@@ -1,4 +1,4 @@
-INSERT INTO "account"("id","last_name","first_name") VALUES 
+INSERT INTO "sampletable"("id","last_name","first_name") VALUES 
 	('1','Lig1','Ligue 1'),
 	('2','THT','Thắng Hòa Thua'),
 	('3','TS','Tỷ số'),
